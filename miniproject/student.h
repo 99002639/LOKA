@@ -14,7 +14,7 @@ class Student
 
 public:
     //Student();
-    Student(double,std::string ,std::string );
+    Student(double,std::string&,std::string&);
     double getAdmno();
     std::string getName();
     std::string getGender();
