@@ -17,7 +17,7 @@ void Data::add(double m_admno,std::string &m_name,std::string &m_gender,float m_
 void Data::remove(double m_admno)
 {
     std::list<Cse> :: iterator iter;
-    for(iter=list1.begin();iter!=list1.end();iter++)
+    for(iter=list1.begin();iter!=list1.end();++iter)
     {
         if(iter->getAdmno()==m_admno)
         {
