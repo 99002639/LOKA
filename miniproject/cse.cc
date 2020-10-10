@@ -6,7 +6,7 @@ using namespace std;
 
 
 //Cse::Cse():Student(){}
-Cse::Cse(double admno,std::string name,std::string gender,float marks,float totalmarks):Student(admno,name,gender){
+Cse::Cse(double admno,std::string &name,std::string &gender,float marks,float totalmarks):Student(admno,name,gender){
 
     m_marks=marks;
     m_totalmarks=totalmarks;
