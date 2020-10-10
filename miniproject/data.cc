@@ -10,7 +10,7 @@
 #include <fstream>
 #include <sstream>
 using namespace std;
-void Data::add(double m_admno,std::string m_name,std::string m_gender,float m_marks,float m_totalmarks)
+void Data::add(double m_admno,std::string &m_name,std::string &m_gender,float m_marks,float m_totalmarks)
 {
     list1.push_back(Cse(m_admno,m_name,m_gender,m_marks,m_totalmarks));
 }
