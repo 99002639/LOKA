@@ -4,7 +4,7 @@
 using namespace std;
 
 //Student::Student(){}
-Student::Student(double admno,std::string name,std::string gender){
+Student::Student(double admno,std::string &name,std::string &gender){
 
     m_admno=admno;
     m_name=name;
