@@ -14,7 +14,7 @@ class Cse:public Student {
 
 public:
     //Cse();
-    Cse(double,std::string,std::string,float,float);
+    Cse(double,std::string&,std::string&,float,float);
 
     void display();
 };
