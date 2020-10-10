@@ -14,7 +14,7 @@ class Ece:public Student {
 
 public:
     //Ece();
-    Ece(double,std::string,std::string,float,float);
+    Ece(double,std::string&,std::string&,float,float);
 
     void display();
 };
