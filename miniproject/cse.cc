@@ -14,7 +14,7 @@ Cse::Cse(double admno,std::string &name,std::string &gender,float marks,float to
 }
 void Cse::display()
 {
-    double k=Student::getAdmno();
+    //double k=Student::getAdmno();
 cout<<Student::getAdmno()<<endl;
 cout<<Student::getName()<<endl;
 cout<<Student::getGender()<<endl;
