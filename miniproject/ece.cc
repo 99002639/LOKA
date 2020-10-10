@@ -7,7 +7,7 @@ using namespace std;
 
 
 //Ec::Ece():Student(){}
-Ece::Ece(double admno,std::string name,std::string gender,float marks,float totalmarks):Student(admno,name,gender){
+Ece::Ece(double admno,std::string &name,std::string &gender,float marks,float totalmarks):Student(admno,name,gender){
 
     m_marks=marks;
     m_totalmarks=totalmarks;
